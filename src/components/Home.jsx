@@ -1,6 +1,5 @@
 import React from 'react';
-import { HiArrowNarrowRight} from 'react-icons/hi';
-
+import { ArrowRight } from 'iconsax-react';
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
@@ -15,7 +14,7 @@ const Home = () => {
         <div>
             <button className='flex items-center px-6 py-3 my-2 text-white border-2 group hover:bg-pink-600 hover:border-pink-600'>View Work  
             <span className='duration-300 group-hover:rotate-90'>
-            <HiArrowNarrowRight className="ml-3" />
+            <ArrowRight className="ml-3" />
             </span>
             </button>
         </div>
