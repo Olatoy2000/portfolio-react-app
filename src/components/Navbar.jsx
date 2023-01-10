@@ -5,6 +5,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import { Link } from 'react-scroll';
+import { Icon } from '@iconify/react';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -99,7 +100,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a className='flex items-center justify-between w-full text-gray-300' href='https://www.olatoyconsult@gmail.com' target='_blank' rel="noreferrer">
-              Email <HiOutlineMail size={30} />
+              Email <Icon icon="mdi-light:email" color="white" width="32" />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
