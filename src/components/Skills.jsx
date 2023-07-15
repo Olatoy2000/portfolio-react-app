@@ -4,8 +4,6 @@ import HtmlLogo from '../assets/html.png';
 import JavaScriptLogo from '../assets/javascript.png';
 import ReactLogo from '../assets/react.png';
 import TailwindCssLogo from '../assets/tailwind.png';
-import nodeLogo from '../assets/node.png';
-import { Typescript } from 'react-icons';
 import GitHubLogo from '../assets/github.png';
 import { Icon } from '@iconify/react';
 import NextJsLogo from '../assets/nextjs.webp';
@@ -46,7 +44,8 @@ const Skills = () => {
                     <p className='my-4'>GITHUB</p>
                 </div> 
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <Icon icon="logos:typescript-icon" width="80" height="100" className='mx-auto' />                    <p className='my-4'>TYPESCRIPT</p>
+                    <Icon icon="logos:typescript-icon" width="80" height="100" className='mx-auto' />                    
+                    <p className='my-4'>TYPESCRIPT</p>
                 </div> 
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='mx-auto w-28' src={NextJsLogo} alt="Html icon" />
