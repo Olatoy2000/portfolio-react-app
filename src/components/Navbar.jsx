@@ -1,6 +1,6 @@
 
 import React, {useState} from 'react';
-import OlatoyLogo from '../assets/olatoylogo.png';
+import OlatoyLogo from '../assets/olatoy-nlogo.png';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import { Link } from 'react-scroll';
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='flex fixed w-full h-20 items-center justify-between bg-[#0a192f] px-4 text-gray-300'>
       <div>
-        <img src={OlatoyLogo} alt="Customized Brand Logo" className='w-20 rounded-xl' />
+        <img src={OlatoyLogo} alt="Customized Brand Logo" className='w-32' />
       </div>
 
        {/* Menu */}
