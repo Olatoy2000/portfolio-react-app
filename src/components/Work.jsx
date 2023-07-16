@@ -1,7 +1,8 @@
 import React from 'react'
-import WorkImg from '../assets/project/workImg.jpeg';
-import RealEstate from '../assets/project/realestate.jpg';
-import CalculatorApp from '../assets/project/calculatorapp.jpg';
+import BatteryDetector from "../assets/project/battery-dete.jpg";
+import WeatherApp from "../assets/project/smart-weather.jpg";
+import CreditCard from "../assets/project/credit-card.png"
+
 
 const Work = () => {
   return (
@@ -16,116 +17,59 @@ const Work = () => {
         className='grid gap-4 sm:grid-cols-2 md:grid-cols-3 '>
           {/* Grid items */}
           <div
-           style={{backgroundImage: `url(${WorkImg})`}}
+           style={{backgroundImage: `url(${BatteryDetector})`}}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold tracking-wider text-white'>
-                React JS Application
+                Battery Detector
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://olatoy-batterydetector.netlify.app">
                   <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Olatoy2000/battery-detector">
                   <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Code</button>
                 </a>
               </div>
             </div>
           </div>
           <div
-          style={{backgroundImage: `url(${RealEstate})`}}
+          style={{backgroundImage: `url(${WeatherApp})`}}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold tracking-wider text-white'>
-                React JS Application
+               Weather App
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://olatoy-weatherapp.netlify.app">
                   <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Olatoy2000/weather-app">
                   <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Code</button>
                 </a>
               </div>
             </div>
           </div>
           <div
-          style={{backgroundImage: `url(${CalculatorApp})`,
+          style={{backgroundImage: `url(${CreditCard})`,
           backgroundSize: 'contain',  
         }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover effect */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold tracking-wider text-[#9e263a]'>
-                React JS Application
+            <div className='px-3 opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold tracking-wider text-gray-700'>
+                Credit Card
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='px-4 py-3 m-2 text-lg font-bold text-center text-white bg-[#9e263a] rounded-lg'>Demo</button>
-                </a>
-                <a href="/">
-                  <button className='px-4 py-3 m-2 text-lg font-bold text-center text-white bg-[#9e263a] rounded-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-          style={{backgroundImage: `url(${RealEstate})`}}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-            {/* Hover effect */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold tracking-wider text-white'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://cc-demo.netlify.app">
                   <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
                 </a>
-                <a href="/">
-                  <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-          style={{backgroundImage: `url(${WorkImg})`}}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-            {/* Hover effect */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold tracking-wider text-white'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
-                </a>
-                <a href="/">
-                  <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-          style={{backgroundImage: `url(${RealEstate})`}}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-            {/* Hover effect */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold tracking-wider text-white'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
-                </a>
-                <a href="/">
+                <a href="https://github.com/Olatoy2000/credit-card">
                   <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Code</button>
                 </a>
               </div>
