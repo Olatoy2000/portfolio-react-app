@@ -6,10 +6,10 @@ import CreditCard from "../assets/project/credit-card.png"
 
 const Work = () => {
   return (
-    <div name='work' className='w-full text-gray-300 md:h-screen bg-[#0a192f]'>
+    <div name='work' className='w-full text-gray-300 md:h-screen  sm:mt-0 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto flex flex-col p-4 justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='inline text-4xl font-bold text-gray-300 border-b-4 border-pink-600'>Work</p>
+          <p className='inline-block pt-[100px] sm:pt-0  text-4xl font-bold text-gray-300 border-b-4 border-pink-600'>Work</p>
           <p className='py-6'>Check out some of my past and recent work</p>
         </div>       
         {/* Container for past works */}

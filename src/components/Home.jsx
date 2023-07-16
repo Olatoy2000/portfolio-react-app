@@ -7,7 +7,7 @@ const Home = () => {
       {/* container */}
 
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-600 ">Hi, my name is </p>
+        <p className="text-pink-600 inline-block pt-[150px] sm:pt-0">Hi, my name is </p>
         <h1 className="text-4xl font-bold sm:text-7xl text-[#ccd6f6]">
           {" "}
           Toyyib Olalekan Oladejo
@@ -22,7 +22,7 @@ const Home = () => {
           user experiences. Currently, I'm focusing on building responsive web
           application with good user experience{" "}
         </p>
-        <div>
+        <div className="">
           <Link to="work" smooth={true} offset={50} duration={1000}>
             <button className="flex items-center px-6 py-3 my-2 text-white border-2 group hover:bg-pink-600 hover:border-pink-600">
               View Work

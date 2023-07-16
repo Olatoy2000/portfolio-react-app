@@ -8,7 +8,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col gap-20 bg-[#0a192f] sm:block">
       <Navbar />
       <Home />
       <About />
