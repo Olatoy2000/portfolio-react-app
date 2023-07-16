@@ -17,7 +17,7 @@ const Home = () => {
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I am a responsible, creative, open-minded, friendly and ambitious
-          front-end web developer. My interests are in Front End Engineering,
+          front-end web developer. My interest is in Front End Engineering,
           and I love to create beautiful and performant products with delightful
           user experiences. Currently, I'm focusing on building responsive web
           application with good user experience{" "}
