@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <div name='work' className='w-full text-gray-300 md:h-screen  sm:mt-0 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto flex flex-col p-4 justify-center w-full h-full'>
-        <div className='pb-8'>
+        <div className='pb-2'>
           <p className='inline-block pt-[100px] sm:pt-0  text-4xl font-bold text-gray-300 border-b-4 border-pink-600'>Work</p>
           <p className='py-6'>Check out some of my past and recent work</p>
         </div>       
@@ -61,11 +61,11 @@ const Work = () => {
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover effect */}
-            <div className='px-3 opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold tracking-wider text-gray-700'>
+            <div className='p-3 opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold tracking-wider text-white'>
                 Credit Card
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt- text-center'>
                 <a href="https://cc-demo.netlify.app">
                   <button className='px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg'>Demo</button>
                 </a>
